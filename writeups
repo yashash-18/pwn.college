@@ -1,4 +1,20 @@
-level-1: > Run the /challenge/server in the terminal in desktop. 
-         > opened the fire fox and pasted the url that we got from the before step.
+level-1:  > Run the /challenge/server in the terminal in desktop.
+          > opened the fire fox and pasted the url that we got from the before step.
 
-level-2: > 
+          Flag: pwn.college{ktfvMhfzJlCVIrpGS0XtD9enN7O.0lMxgDNxwyN1YTN0EzW} 
+
+level-2:  > Run the /challenge/server in the terminal in desktop. 
+          > cat /challenge/server to know what the code present inside it.
+          > get the endpoint from that. 
+          > opened the fire fox and pasted the url along with endpoint that we got from the before step.
+
+          Flag: pwn.college{AtpWyq1ktQ5_wrOg_KjVa6el26q.01MxgDNxwyN1YTN0EzW}
+
+level-3:  > Run the /challenge/server in the terminal in desktop.
+          > cat /challenge/server to know what the code present inside it.
+          > opened the fire fox and pasted the url along with endpoint that we got from the before step.
+          > go to menu and then open more tools and click on page source we get the hidden flag.
+
+          Flag: pwn.college{IRqkj7eCTvfg7PjAswXGOivkvSp.oFNxgDNxwyNlYTNOEZw}
+
+level-4:  > 
