@@ -24,4 +24,19 @@ level-4:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{oDTA87wc01enXg9QmqQoRCRIIFd.0VNxgDNxwyN1YTN0EzW}
 
-level-5:  > 
+level-5:  > Run the /challenge/server in the terminal in desktop.
+          > open another terminal and run nc challenge.localhost 80 , since end point is given.
+          > run Get /path HTTP/1.1  (there mention which path it should go)
+          > get the flag.
+
+          Flag: pwn.college{gvYuEL5MHFB6lOLW63zE80s_yGU.QX5YjMzwYN1YTN0EzW}
+
+level-6:  > Run the /challenge/server in the terminal in desktop.
+          > cat /challenge/server and find the endpoint .  
+          > open another terminal and run nc challenge.localhost 80
+          > run Get /path HTTP/1.1  (there mention which path it should go)
+          > get the flag.
+
+          Flag: pwn.college{0HeUd8t3ZvvsIafrWNDcE6rJqs.QX1cjMzwyN1YTN0EzW}
+
+level-7:  > 
