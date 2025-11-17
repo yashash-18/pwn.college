@@ -46,4 +46,12 @@ level-7:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{0zwaKRxHgklOhnxR7Ka4Y6_3jHK.QX0cjMzwyN1YTN0EzW}
 
-level-8:  > 
+level-8:  > Run the /challenge/server in the terminal in desktop.
+          > cat /challenge/server and find the endpoint .
+          > open another terminal and run python to open the pythone notebook.
+          > import requests , assign a variable name to requests.get("http://challenge.localhost/endpoint"), and then print(variablename.url or variablename.text) url for link and text for the web content.
+          > get the flag
+
+          Flag: pwn.college{UZcpFAvHob506rcwQBg3aEdo4It.QX2cjMzwyN1YTN0EzW}
+
+level-9:  > 
