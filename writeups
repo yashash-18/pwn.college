@@ -41,7 +41,7 @@ level-6:  > Run the /challenge/server in the terminal in desktop.
 
 level-7:  > Run the /challenge/server in the terminal in desktop.
           > cat /challenge/server and find the endpoint . 
-          > open another terminal and run curl http://challenge.localhost/endpoint  (using get request , endpoint get it from the before step)
+          > open another terminal and run curl http://challenge.localhost/endpoint  (using get request we run curl in this way ,we get endpoint from the before step)
           > get the flag.
 
           Flag: pwn.college{0zwaKRxHgklOhnxR7Ka4Y6_3jHK.QX0cjMzwyN1YTN0EzW}
