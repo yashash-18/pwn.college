@@ -63,4 +63,11 @@ level-9:  > Run the /challenge/server in the terminal in desktop.
           Flag: pwn.college{gphZ0uzs3rWUZn2Rc0TA1nowe8L.QXzcjMzwyN1YTN0EzW}
 
 level-10:  > Run the /challenge/server in the terminal in desktop.
-           > 
+           > cat /challenge/server and find the endpoint and also check for new host..
+           > open another terminal and run curl -H "Host: newhostname" http://challenge.localhost/endpoint ( it is the syntax for curl in setting the host header)
+           > get the flag
+
+          Flag: pwn.college{wOOtEhrGoq2mpb735GzsW740oY2.QXxcjMzwyN1YTN0EzW}
+
+level-11:  > Run the /challenge/server in the terminal in desktop.
+
