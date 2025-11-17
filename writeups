@@ -37,6 +37,6 @@ level-6:  > Run the /challenge/server in the terminal in desktop.
           > run Get /path HTTP/1.1  (there mention which path it should go)
           > get the flag.
 
-          Flag: pwn.college{0HeUd8t3ZvvsIafrWNDcE6rJqs.QX1cjMzwyN1YTN0EzW}
+          Flag: pwn.college{0HeUd8t3ZvvslAfrWNIdcE6rJqs.QX1cjMzwyN1YTN0EzW}
 
 level-7:  > 
