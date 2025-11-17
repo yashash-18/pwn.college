@@ -54,4 +54,13 @@ level-8:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{UZcpFAvHob506rcwQBg3aEdo4It.QX2cjMzwyN1YTN0EzW}
 
-level-9:  > 
+level-9:  > Run the /challenge/server in the terminal in desktop.
+          > cat /challenge/server and find the endpoint and also check for new host..
+          > open another terminal and run python to open the pythone notebook.
+          > import requests , assign a variable name to requests.get("http://challenge.localhost/endpoint",headers={"Host":"newhostname"}), and then print(variablename.text)
+          > get the flag
+
+          Flag: pwn.college{gphZ0uzs3rWUZn2Rc0TA1nowe8L.QXzcjMzwyN1YTN0EzW}
+
+level-10:  > Run the /challenge/server in the terminal in desktop.
+           > 
