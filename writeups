@@ -89,4 +89,12 @@ level-12:  > Run the /challenge/server in the terminal in desktop.
           Flag: pwn.college{IO6VrRH3OUZdWACJhZS_GyO97oV.QX5cjMzwyN1YTN0EzW}
 
 level-13:  > Run the /challenge/server in the terminal in desktop.
+           > cat /challenge/server and find the endpoint and also check for the parameters.
+           > open another terminal and run curl "http://challenge.localhost:80/solve?password=dpiocwev"
+           > get the flag
+
+          Flag: pwn.college{MK45pCiqdtEtRJWesAJCSZdz352.QXwgjMzwyN1YTN0EzW}
+
+level-14:  > Run the /challenge/server in the terminal in desktop.
+           > 
 
