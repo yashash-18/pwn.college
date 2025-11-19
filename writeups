@@ -80,4 +80,13 @@ level-11:  > Run the /challenge/server in the terminal in desktop.
           Flag: pwn.college{AQ82RHH4JM1W0_7Xm7nXhkuESBi.QXycjMzwyN1YTN0EzW}
 
 level-12:  > Run the /challenge/server in the terminal in desktop.
+           > cat /challenge/server and find the endpoint and also check for new host..
+           > open another terminal and run nc challenge.localhost 80
+           > run Get /endpoint with encoded HTTP/1.1
+           > press enter twice after the last line
+           > get the flag
+
+          Flag: pwn.college{IO6VrRH3OUZdWACJhZS_GyO97oV.QX5cjMzwyN1YTN0EzW}
+
+level-13:  > Run the /challenge/server in the terminal in desktop.
 
