@@ -106,5 +106,13 @@ level-14:  > Run the /challenge/server in the terminal in desktop.
           Flag: pwn.college{EwC6tnLCMgJbVVohGxUD__lxt64.QX0gjMzwyN1YTN0EzW}
 
 level-15:  > Run the /challenge/server in the terminal in desktop
+           > cat /challenge/server and find the endpoint and also check for the parameters.
+           > open another terminal and run curl "http://challenge.localhost:80/hack?parameter1=&parameter2="
+           > press enter twice after that.
+           > get the flag.
+
+          Flag: pwn.college{cyyJA2rfPwqLem0aPYLYGIt_0Wj.QXzgjMzwyN1YTN0EzW}
+
+level-16:  > Run the /challenge/server in the terminal in desktop
            > 
 
