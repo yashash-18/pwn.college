@@ -129,4 +129,17 @@ level-17:  > Run the /challenge/server in the terminal .
           Flag: pwn.college{o5jyeO9g7F6YlLzjocPT6x28EbG.QX2gjMzwyN1YTN0EzW}
 
 level-18:  > Run the /challenge/server in the terminal 
-           > 
+           > cat /challenge/server and find the endpoint.
+           > open another terminal and run nc challenge.localhost 80
+           > run POST /endpoint HTTP/1.1
+           > run host: host-header
+           > run content-type: application/x-www-form-urlencoded
+           > run content-length: length of the string
+           > enter empty line so that it will understand that headers are completed now body will start.
+           > enter the body
+           > get the flag.
+
+          Flag: pwn.college{0nxl5N4Tx-rBbm3CWgveeAQg2FD.QX3gjMzwyN1YTN0EzW}
+
+level-19:  > Run the /challenge/server in the terminal 
+
