@@ -24,14 +24,14 @@ level-4:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{oDTA87wc01enXg9QmqQoRCRIIFd.0VNxgDNxwyN1YTN0EzW}
 
-level-5:  > Run the /challenge/server in the terminal in desktop.
+level-5:  > Run the /challenge/server in the terminal .
           > open another terminal and run nc challenge.localhost 80 , since end point is given.
           > run Get /path HTTP/1.1  (there mention which path it should go)
           > get the flag.
 
           Flag: pwn.college{gvYuEL5MHFB6lOLW63zE80s_yGU.QX5YjMzwYN1YTN0EzW}
 
-level-6:  > Run the /challenge/server in the terminal in desktop.
+level-6:  > Run the /challenge/server in the terminal .
           > cat /challenge/server and find the endpoint .  
           > open another terminal and run nc challenge.localhost 80
           > run Get /path HTTP/1.1  (there mention which path it should go)
@@ -39,14 +39,14 @@ level-6:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{0HeUd8t3ZvvslAfrWNIdcE6rJqs.QX1cjMzwyN1YTN0EzW}
 
-level-7:  > Run the /challenge/server in the terminal in desktop.
+level-7:  > Run the /challenge/server in the terminal .
           > cat /challenge/server and find the endpoint . 
           > open another terminal and run curl http://challenge.localhost/endpoint  (using get request we run curl in this way ,we get endpoint from the before step)
           > get the flag.
 
           Flag: pwn.college{0zwaKRxHgklOhnxR7Ka4Y6_3jHK.QX0cjMzwyN1YTN0EzW}
 
-level-8:  > Run the /challenge/server in the terminal in desktop.
+level-8:  > Run the /challenge/server in the terminal .
           > cat /challenge/server and find the endpoint .
           > open another terminal and run python to open the pythone notebook.
           > import requests , assign a variable name to requests.get("http://challenge.localhost/endpoint"), and then print(variablename.url or variablename.text) url for link and text for the web content.
@@ -54,7 +54,7 @@ level-8:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{UZcpFAvHob506rcwQBg3aEdo4It.QX2cjMzwyN1YTN0EzW}
 
-level-9:  > Run the /challenge/server in the terminal in desktop.
+level-9:  > Run the /challenge/server in the terminal .
           > cat /challenge/server and find the endpoint and also check for new host..
           > open another terminal and run python to open the pythone notebook.
           > import requests , assign a variable name to requests.get("http://challenge.localhost/endpoint",headers={"Host":"newhostname"}), and then print(variablename.text)
@@ -62,14 +62,14 @@ level-9:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{gphZ0uzs3rWUZn2Rc0TA1nowe8L.QXzcjMzwyN1YTN0EzW}
 
-level-10:  > Run the /challenge/server in the terminal in desktop.
+level-10:  > Run the /challenge/server in the terminal .
            > cat /challenge/server and find the endpoint and also check for new host..
            > open another terminal and run curl -H "Host: newhostname" http://challenge.localhost/endpoint ( it is the syntax for curl in setting the host header)
            > get the flag
 
           Flag: pwn.college{wOOtEhrGoq2mpb735GzsW740oY2.QXxcjMzwyN1YTN0EzW}
 
-level-11:  > Run the /challenge/server in the terminal in desktop.
+level-11:  > Run the /challenge/server in the terminal .
            > cat /challenge/server and find the endpoint and also check for new host..
            > open another terminal and run nc challenge.localhost 80
            > run Get /endpoint HTTP/1.1
@@ -79,7 +79,7 @@ level-11:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{AQ82RHH4JM1W0_7Xm7nXhkuESBi.QXycjMzwyN1YTN0EzW}
 
-level-12:  > Run the /challenge/server in the terminal in desktop.
+level-12:  > Run the /challenge/server in the terminal .
            > cat /challenge/server and find the endpoint and also check for new host..
            > open another terminal and run nc challenge.localhost 80
            > run Get /endpoint with encoded HTTP/1.1
@@ -88,14 +88,14 @@ level-12:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{IO6VrRH3OUZdWACJhZS_GyO97oV.QX5cjMzwyN1YTN0EzW}
 
-level-13:  > Run the /challenge/server in the terminal in desktop.
+level-13:  > Run the /challenge/server in the terminal .
            > cat /challenge/server and find the endpoint and also check for the parameters.
            > open another terminal and run curl "http://challenge.localhost:80/solve?password=dpiocwev"
            > get the flag
 
           Flag: pwn.college{MK45pCiqdtEtRJWesAJCSZdz352.QXwgjMzwyN1YTN0EzW}
 
-level-14:  > Run the /challenge/server in the terminal in desktop.
+level-14:  > Run the /challenge/server in the terminal.
            > cat /challenge/server and find the endpoint and also check for the parameters.
            > open another terminal and run nc challenge.localhost 80
            > run Get /endpoint?parameter1=&parameter2= HTTP/1.1
@@ -105,7 +105,7 @@ level-14:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{EwC6tnLCMgJbVVohGxUD__lxt64.QX0gjMzwyN1YTN0EzW}
 
-level-15:  > Run the /challenge/server in the terminal in desktop
+level-15:  > Run the /challenge/server in the terminal.
            > cat /challenge/server and find the endpoint and also check for the parameters.
            > open another terminal and run curl "http://challenge.localhost:80/hack?parameter1=&parameter2="
            > press enter twice after that.
@@ -113,6 +113,13 @@ level-15:  > Run the /challenge/server in the terminal in desktop
 
           Flag: pwn.college{cyyJA2rfPwqLem0aPYLYGIt_0Wj.QXzgjMzwyN1YTN0EzW}
 
-level-16:  > Run the /challenge/server in the terminal in desktop
-           > 
+level-16:  > Run the /challenge/server in the terminal in desktop.
+           > cat /challenge/server and find the endpoint.
+           > open browser and run the url
+           > a form will be visible and enter the passowrd there
+           > get the flag.
 
+          Flag: pwn.college{oiY3N78OxDj-iQa0iyaSrOz98iq.0lNxgDNxwyN1YTN0EzW}
+
+level-17:  > Run the /challenge/server in the terminal in desktop. 
+           > 
