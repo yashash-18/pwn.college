@@ -121,5 +121,12 @@ level-16:  > Run the /challenge/server in the terminal in desktop.
 
           Flag: pwn.college{oiY3N78OxDj-iQa0iyaSrOz98iq.0lNxgDNxwyN1YTN0EzW}
 
-level-17:  > Run the /challenge/server in the terminal in desktop. 
+level-17:  > Run the /challenge/server in the terminal . 
+           > cat /challenge/server and find the endpoint.
+           > open another terminal and run curl -X POST -d "key=password" http://challenge.localhost:80/challenge
+           > get the flag.
+
+          Flag: pwn.college{o5jyeO9g7F6YlLzjocPT6x28EbG.QX2gjMzwyN1YTN0EzW}
+
+level-18:  > Run the /challenge/server in the terminal 
            > 
