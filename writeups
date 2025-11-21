@@ -186,13 +186,24 @@ level-23: > Run the /challenge/server in the terminal
           Flag: pwn.college{UR4mpTI6_G7WJpxmXIiMtTSV-hi.QX5kjMzwyN1YTN0EzW}
 
 level-24:  > Run the /challenge/server in the terminal
-           > cat /challenge/server and find the  1st endpoint
+           > cat /challenge/server and find the endpoint
            > run curl -L http://challenge.localhost:80/endpoint  ( here -L refers to which location should it go)
            > u will get the flag directly since curl redirects directly and gives the final result.
 
           Flag: pwn.college{QgjRirq1uDnUZQaXMfHfJud0zGi.QX4kjMzwyN1YTN0EzW}
 
-level-25:  > Run the /challenge/server in the terminal
+level-25:  > Run the /challenge/server in the terminal.
+           > cat /challenge/server and find the endpoint
+           > open another terminal and run python so that it opens python notebook
+           > import requests
+           > revise=requests.get("http://challenge.localhost:80/endpoint")
+           > print(revise.text)
+           > get the flag since python redirects directly and give the final result
+
+          Flag: pwn.college{kD5c5eZiTWlwGUmr_LyQyi8wgcb.QXwAzMzwyN1YTN0EzW}
+
+level-26:  > Run the /challenge/server in the terminal
+
 
 
 
