@@ -230,7 +230,16 @@ level-28:  > run python so that a python notebook is introduced
 
           Flag: pwn.college{wpGDV4aCS4o3TP00KaTlC-Y9Cd0.QXzAzMzwyN1YTN0EzW}
 
-level-29:  >
+level-29:  > run python so that a python notebook is introduced
+           > import requests
+           > r=requests.session()
+           > s=r.get("http://challenge.localhost:80")
+           > print(s.text) 
+           > get the flag
+
+          Flag: pwn.college{kJQAIl2FZlt8AhpKZSxCwyjbh7f.QX2AzMzwyN1YTN0EzW}
+
+level-30:  
 
 
 
