@@ -145,7 +145,6 @@ level-19:  > Run the /challenge/server in the terminal.
            > cat /challenge/server and find the endpoint.
            > open another terminal and run python so that it opens python notebook
            > run import requests
-           > import requests
            > revise="http://challenge.localhost:80/endpoint"
            > params={"pin" : "password"}
            > response=requests.post(revise,data=params)  [ here data is an in-built parameter of requets.post() ]
