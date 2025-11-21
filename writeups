@@ -211,7 +211,27 @@ level-26:  > Run curl http://challenge.localhost:80
 
           Flag: pwn.college{M1ZylMJTQqFyQf7f2gpsmgrELxE.QXxAzMzwyN1YTN0EzW}
 
-level-27:  
+level-27:  > Run nc challenge.localhost 80
+           > run Get / HTTP/1.1
+           > host: host-header
+           > u will get the cookie and after that run the same including the cookie
+           > nc challenge.localhost 80
+           > run Get / HTTP/1.1
+           > cookie: cookie=491ae9e9dbf646e60dce31da558f88be; Path=/
+           > get the flag
+           
+          Flag:  pwn.college{gzeuLxRcUdtVhqzujr_aGIIsHN9.QXyAzMzwyN1YTN0EzW}
+
+level-28:  > run python so that a python notebook is introduced
+           > import requests
+           > revise=requests.get("http://challenge.localhost:80")
+           > print(revise.text)
+           > we will get the flag directly as python requests automatically handle the cookies.
+
+          Flag: pwn.college{wpGDV4aCS4o3TP00KaTlC-Y9Cd0.QXzAzMzwyN1YTN0EzW}
+
+level-29:  >
+
 
 
 
