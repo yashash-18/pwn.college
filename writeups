@@ -160,6 +160,21 @@ level-21:  > Run the /challenge/server in the terminal
 
           Flag: pwn.college{kZLXF7WhF0Iiqtv8HGHebx6cODp.QX5gjMzwyN1YTN0EzW}
 
-level-22:  > Run the /challenge/server in the terminal
+level-22:  > Run the /challenge/server in the terminal.
+           > cat /challenge/server and find the endpoint
+           > open another terminal and run nc challenge.localhost 80
+           > run POST /submit HTTP/1.1
+           > host: challenge.localhost
+           > content-type: application/x-www-form-urlencoded
+           > content-length: 68
+           > enter a empty line so that the server can understand the headers are completed and the body starts 
+           > name1=pass1&name2=pass2&name3=pass3
+           > get the flag.
+
+          Flag: pwn.college{wpFtMk4ltopFaPfPj_EMXckKeez.QXwkjMzwyN1YTN0EzW}
+
+level-23: > Run the /challenge/server in the terminal
+
+
 
 
