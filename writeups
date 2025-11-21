@@ -202,7 +202,17 @@ level-25:  > Run the /challenge/server in the terminal.
 
           Flag: pwn.college{kD5c5eZiTWlwGUmr_LyQyi8wgcb.QXwAzMzwyN1YTN0EzW}
 
-level-26:  > Run the /challenge/server in the terminal
+level-26:  > Run curl http://challenge.localhost:80
+           > it will show a redirecting url where u will get an endpoint
+           > run curl -v http://challenge.localhost:80/endpoint
+           > u will see a cookie inside .
+           > run curl -H "cookie: cookie=ff0577d87a560f417038898cb42adeab; Path=/" http://challenge.localhost:80/
+           > get the flag
+
+          Flag: pwn.college{M1ZylMJTQqFyQf7f2gpsmgrELxE.QXxAzMzwyN1YTN0EzW}
+
+level-27:  
+
 
 
 
