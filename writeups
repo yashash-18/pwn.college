@@ -187,8 +187,8 @@ level-23: > Run the /challenge/server in the terminal
 
 level-24:  > Run the /challenge/server in the terminal
            > cat /challenge/server and find the endpoint
-           > run curl -L http://challenge.localhost:80/endpoint  ( here -L refers to which location should it go)
-           > u will get the flag directly since curl redirects directly and gives the final result.
+           > run curl -L http://challenge.localhost:80/endpoint  ( here -L refers to which location should it go and if there are any redirects also it directs directly)
+           > u will get the flag directly.
 
           Flag: pwn.college{QgjRirq1uDnUZQaXMfHfJud0zGi.QX4kjMzwyN1YTN0EzW}
 
