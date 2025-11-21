@@ -153,13 +153,13 @@ level-19:  > Run the /challenge/server in the terminal.
 
           Flag: pwn.college{g2J0EuvdYJ6VFdtuO2JqoIokrNX.QX4gjMzwyN1YTN0EzW}
 
-level-20:  > Run the /challenge/server in the terminal
+level-21:  > Run the /challenge/server in the terminal
            > cat /challenge/server and find the endpoint
            > open another terminal and run curl -X POST -d "code=pass" -d "flag=pass" -d "signature=pass" http://challenge.localhost:80/endpoint
            > get the flag
 
           Flag: pwn.college{kZLXF7WhF0Iiqtv8HGHebx6cODp.QX5gjMzwyN1YTN0EzW}
 
-level-21:  > Run the /challenge/server in the terminal
+level-22:  > Run the /challenge/server in the terminal
 
 
