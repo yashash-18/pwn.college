@@ -244,7 +244,19 @@ level-30:  > Run nc -l localhost 1337
 
           Flag: pwn.college{cIW7D2xaoAVu0X3-aWQBBvzMjUl.0VOzgDNxwyN1YTN0EzW}
 
-level-31:  > 
+level-31:  > Run /challenge/server and cat /challenge/server to know the end point in one terminal [ 1 ]
+           > Run nc -l 1337 in another terminal [ 2 ]
+           > open another terminal and run /challenge/client  [ 3 ]
+           > then in it listen to  corresponding port 
+           > now go to 2nd terminal 
+           > run HHTP/1.1 302 Found 
+           > run location: http://challenge.localhost/endpoint  { the redirecting location }
+           > get the flag
+
+          Flag: pwn.college{UNpBE4AOGnXNrsGOGMxb1byFDYs.0FM0gDNxwyN1YTN0EzW}
+
+level-32:  
+
 
 
 
