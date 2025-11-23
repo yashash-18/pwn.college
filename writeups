@@ -255,7 +255,14 @@ level-31:  > Run /challenge/server and cat /challenge/server to know the end poi
 
           Flag: pwn.college{UNpBE4AOGnXNrsGOGMxb1byFDYs.0FM0gDNxwyN1YTN0EzW}
 
-level-32:  
+level-32:  > Run cat /challenge/server and get the endpoint from there and then run /challenge/server.
+           > create directories and in a specific file write the javascript to redirect the page.
+           > run /challenge/client
+           > get the flag.
+
+          Flag: pwn.college{oomYHWN0y3lXDMNiqa3bLu5TtXA.0VNxATNxwyN1YTN0EzW}
+
+level-33:  > 
 
 
 
