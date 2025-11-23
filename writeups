@@ -240,7 +240,7 @@ level-29:  > run python so that a python notebook is introduced
           Flag: pwn.college{kJQAIl2FZlt8AhpKZSxCwyjbh7f.QX2AzMzwyN1YTN0EzW}
 
 level-30:  > Run nc -l localhost 1337
-           > open another terminal and run /challenge/server and get the flag.
+           > open another terminal and run /challenge/client and get the flag.
 
           Flag: pwn.college{cIW7D2xaoAVu0X3-aWQBBvzMjUl.0VOzgDNxwyN1YTN0EzW}
 
