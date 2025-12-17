@@ -5,11 +5,19 @@ level-0 : > open the url in the browser.
 
           Password: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
 
-level-0 => level-1 : > open the url in the browser.
-                     > enter the username and pass.
-                     > go to menu, more tools and then developer tools.
-                     > get the password.
+level>>0-1 : > open the url in the browser.
+             > enter the username and pass.
+             > go to menu, more tools and then developer tools.
+             > get the password.
 
                     Password: TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI
 
-level-1 => lvel-2 : 
+level>>1-2 :  > open the url in the browser.
+              > enter the username and pass.
+              > view page source and then click on src if it is present.
+              > since it is empty now remove the filename in the url  and just enter the url with directory.
+              > get the password
+
+                    Password: 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+
+level>>2-3 : > 
