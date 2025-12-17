@@ -1,8 +1,15 @@
 level-0 : > open the url in the browser.
           > enter the username and pass.
-          > go to menu and then developer tools.
+          > go to menu, more tools and then developer tools.
           > get the password.
 
           Password: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
 
-level-0 => level-1 : 
+level-0 => level-1 : > open the url in the browser.
+                     > enter the username and pass.
+                     > go to menu, more tools and then developer tools.
+                     > get the password.
+
+                    Password: TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI
+
+level-1 => lvel-2 : 
