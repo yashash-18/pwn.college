@@ -58,3 +58,22 @@ level>>7-8 : > open the url in the browser.
              > get the password
 
                       Password: xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q 
+
+level>>8-9 : > open the url in the browser.
+             > enter the username and pass.
+             > since they had given the encoded part of the password just decode it.
+             > get the password.
+
+                      Password: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
+
+level>>9-10 : > open the url in the browser.
+              > enter the username and pass.
+              > we can understand that needle is a paramter and we need to give a value to it.
+              > given that grep -i $key dictionary.txt which means it will search for all the lines that contains that word.
+              > now we need to write as,
+                        index.php?needle= ; cat /etc/natas_webpass/natas10
+              > 
+
+
+                      Password: t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
+      
