@@ -35,4 +35,19 @@ level>>4-5 : > open the url in the browser.
 
                     Password: 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
 
-level>>5-6 : 
+level>>5-6 : > open the url in the browser.
+             > enter the username and pass.
+             > since  we are not logged in and since the cookie "loggedin" is 0 that means we are not logged in so change it to 1.
+             > go to storage and expand cookies and complete the changes by double clicking on it
+
+                     Password: 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
+
+level>>6-7 : > open the url in the browser.
+             > enter the username and pass.
+             > since there is a php code and a file name  is included.
+             > just go to that file and we found it is empty then open the page source to find the hidden data.
+             > get the password.
+
+                     Password: bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
+
+level>>7-8 : 
