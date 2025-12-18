@@ -29,7 +29,7 @@ level>>3-4 : > open the url in the browser.
 
 level>>4-5 : > open the url in the browser.
              > enter the username and pass.
-             > since we dont have the access to it from natsa4 we need to access through natas5 by addind a header such that to go that path.
+             > since we dont have the access to it from natas4 we need to access through natas5 by addind a header such that to go that path.
              > add Referer : http://natas5.natas.labs.overthewire.org/
              > get the password.
 
@@ -50,4 +50,11 @@ level>>6-7 : > open the url in the browser.
 
                      Password: bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
 
-level>>7-8 : 
+level>>7-8 : > open the url in the browser.
+             > enter the username and pass.
+             > it is mentioned that password is in /etc...
+             > since the parameter changes for home and about there may be a parameter for password also.
+             > lets assume the given /etc... as parameter.
+             > get the password
+
+                      Password: xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q 
