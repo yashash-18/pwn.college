@@ -88,7 +88,65 @@ level>>10-11 : > open the url in the browser.
 
 level>>11-12 : > open the url in the browser.
                > enter the username and pass.
-  
+               > understanding the source code we found that the XOR of default data and key gives us the encrypted cookie.
+               > here the cookie is given so now the XOR of cookie and default data gives us the key which is censored before
+                          by the property, A ^ B = C
+                                           B ^ C = A
+                                           C ^ A = B  
+               > now the reverse, XOR of key and the default data by changing showpassword from "no" => "yes" in that data , we get the  encrypted cookie of it.
+               > change the cookie and refresh the page .
+               > get the password.
+
+               TO GET THE VALUE OF KEY :
+                      <!DOCTYPE html>
+                      <html>
+                      <body>
+                      <?php
+                      $xor_encrypt_cookie=base64_decode("Cookie");
+                      $variable=json_encode(array( "showpassword"=>"no", "bgcolor"=>"#ffffff"));
+                      function xor_encrypt($a,$b) {
+                          $outText = '';
+
+                          // Iterate through each character
+                          for($i=0;$i<strlen($a);$i++) {
+                          $outText .= $a[$i] ^ $b[$i];
+                          }
+
+                          echo $outText;
+                      }
+                      xor_encrypt($xor_encrypt_cookie,$variable);
+                      ?> 
+                      </body>
+                      </html>    
+
+               TO GET THE COOKIE :
+
+                    <!DOCTYPE html>
+                    <html>
+                    <body>
+                    
+                    <?php
+                    function xor_encrypt($in) {
+                        $key="KEY";
+                        $text=$in;
+                        $outText = '';
+                    
+                        // Iterate through each character
+                        for($i=0;$i<strlen($text);$i++) {
+                        $outText .= $text[$i] ^ $key[$i % strlen($key)];
+                        }
+                    
+                        return $outText;
+                    }
+                    $variable=array( "showpassword"=>"yes", "bgcolor"=>"#ffffff");
+                    echo base64_encode(xor_encrypt(json_encode($variable)));
+                    ?> 
+                    
+                    </body>
+                    </html>
+              
                       Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
 
-level>>12-13 : 
+level>>12-13 : > open the url in the browser.
+               > enter the username and pass.
+               > 
