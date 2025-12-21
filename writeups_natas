@@ -157,7 +157,7 @@ level>>12-13 : > open the url in the browser.
                > inspect and resend it by changing jpg to php .
                > get the password.
 
-                      Password: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
+                          Password: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
 
 level>>13-14 :  > open the url in the browser.
                 > enter the username and pass.
@@ -172,11 +172,19 @@ level>>13-14 :  > open the url in the browser.
                 > inspect and resend it by changing jpg to php.
                 > get the password.
 
-                    Password: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
+                          Password: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
 
 level>>14-15 :  > open the url in the browser.
                 > enter the username and pass.
+                > from the source code we found the vulnerability as sql injection.
+                > so we can input ,
+                          username = " or 1=1 --  
+                  ( " this will close the quotes and or 1=1  is always true and -- is to neglect the remaining part and make sure that at least one space is present after -- )
+                > get the password.
 
+                          Password: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
+
+level>>15-16 :
 
 
 
