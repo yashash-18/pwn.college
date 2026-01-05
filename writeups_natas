@@ -70,7 +70,7 @@ level>>8-9 : > open the url in the browser.
 
 level>>9-10 : > open the url in the browser.
               > enter the username and pass.
-              > we can understand that needle is a parameter and we need to give a value to it.
+              > we can understand that needle is a parameter .
               > given that grep -i $key dictionary.txt which means it will search for all the lines that contains that word.
               > now we need to write as,
                         needle= ; cat /etc/natas_webpass/natas10    (" ; " is a command seperator )
