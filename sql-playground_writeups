@@ -1,0 +1,9 @@
+level>>1 : > Run /challenge/sql 
+           > select * from sqlite_master ;   ( since it iss sqlite not mysql )
+           > get the table name .
+           > select * from table name ;
+           > get the flag.
+
+                Password:  pwn.college{gJw77DFnlK7JCjxRNfP70AqfSWr.0VO5cDNxwyN1YTN0EzW}
+
+level>>2 : 
