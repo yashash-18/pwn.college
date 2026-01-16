@@ -1,0 +1,69 @@
+  server.py :
+
+              import socket
+
+              KEY = 123  # same key on client
+
+              def encrypt_decrypt(data):
+                      return bytes([b ^ KEY for b in data])
+
+              s = socket.socket()
+              s.bind(("192.168.1.9", 9999))
+              print("connecting to server")
+
+              s.listen()
+              mysocket, clientsocket = s.accept()
+              print("waiting for a connection")
+
+              while True:
+                    msg = input("Server : ")
+                    encrypted_msg = encrypt_decrypt(msg.encode("utf-8"))
+                    mysocket.send(encrypted_msg)
+                
+                    if msg == "bye":
+                        break
+                
+                    data = mysocket.recv(1024)
+                    decrypted_data = encrypt_decrypt(data)
+                    print("Client : " + decrypted_data.decode("utf-8"))
+
+              mysocket.close()
+
+
+  client.py :
+
+                import socket
+
+                KEY = 123  # same key as server
+                
+                def encrypt_decrypt(data):
+                    return bytes([b ^ KEY for b in data])
+                
+                s = socket.socket()
+                s.bind(("192.168.1.9", 8060))
+                s.connect(("192.168.1.9", 9999))
+                
+                while True:
+                    msg = s.recv(1024)
+                    decrypted_msg = encrypt_decrypt(msg)
+                    print("Server : " + decrypted_msg.decode("utf-8"))
+                
+                    if decrypted_msg.decode("utf-8") == "bye":
+                        break
+                
+                    data = input("Client : ")
+                    encrypted_data = encrypt_decrypt(data.encode("utf-8"))
+                    s.send(encrypted_data)
+                
+                s.close()
+
+
+
+
+
+
+                
+
+
+
+
