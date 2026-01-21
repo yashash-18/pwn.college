@@ -29,8 +29,6 @@ level>>3-4 : > open the url in the browser.
 
 level>>4-5 : > open the url in the browser.
              > enter the username and pass.
-
-
              > since we dont have the access to it from natas4 we need to access through natas5 by addind a header such that to go that path.
              > add Referer : http://natas5.natas.labs.overthewire.org/
              > get the password.
