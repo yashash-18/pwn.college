@@ -2,14 +2,13 @@
 
               import socket
 
-              KEY = 123  # same key on client
+              KEY = 123 
 
               def encrypt_decrypt(data):
                       return bytes([b ^ KEY for b in data])
 
               s = socket.socket()
               s.bind(("192.168.1.9", 9999))
-              print("connecting to server")
 
               s.listen()
               mysocket, addr = s.accept()
