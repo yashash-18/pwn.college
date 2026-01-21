@@ -12,7 +12,7 @@
               print("connecting to server")
 
               s.listen()
-              mysocket, clientsocket = s.accept()
+              mysocket, addr = s.accept()
               print("waiting for a connection")
 
               while True:
