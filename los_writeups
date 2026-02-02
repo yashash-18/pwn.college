@@ -1,0 +1,12 @@
+level-1 (gremlin):
+  -> inspect the page and add a parameter named id.
+  -> where id=' or 1=1-- , so that it returns true.
+  -> the level is cleared..
+
+level-2 (cobolt):
+  -> inspect the page and add a parameter named id.
+  -> where id=admin'-- , so that it returns true since only admins are allowed.
+  -> the level is cleared..
+
+level-3 (goblin):
+  -> 
