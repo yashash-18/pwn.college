@@ -20,7 +20,8 @@ level-4 (orc):
   -> where pw=' or 1=1 and length(pw)>10-- , if it returns anything then it is true else it is false.
   -> now lets take pw=' or 1=1 and substring(pw,1,1)='a'-- 
   -> open burpsuite and on bruteforcing we will get the password .
+  -> now enter pw=095a9852
   -> the level is cleared.
 
-level-5 ():
-
+level-5 (wolfman):
+  -> 
