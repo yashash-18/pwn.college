@@ -29,5 +29,10 @@ level-5 (wolfman):
   -> since "%09" represents the tab space(percent encoding), which is similar to spacebar but not same.
   -> the level is cleared.
 
-level-6 ():
+level-6 (darkelf):
+  -> inspect the page and in the url add parameter named pw.
+  -> where pw=' || id='admin'--  .("||"  it is logical operator or.)
+  -> the level is cleared.
+
+
 
