@@ -10,7 +10,7 @@ level-2 (cobolt):
 
 level-3 (goblin):
   -> inspect the page and add a parameter named no.
-  -> where no=0 or id=(hex form of admin) . here u can give any number other than 0 since guest matches with "1".
+  -> where no=0 or id=(hex form of admin) . here u can give any number other than 1 since guest matches with "1".
   -> the level is solved.
 
 level-4 (orc):
