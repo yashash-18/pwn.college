@@ -24,4 +24,10 @@ level-4 (orc):
   -> the level is cleared.
 
 level-5 (wolfman):
-  -> 
+  -> inspect the page and in the url add pw.
+  -> where pw='%09or%09id='admin'--%09
+  -> since "%09" represents the tab space(percent encoding), which is similar to spacebar but not same.
+  -> the level is cleared.
+
+level-6 ():
+
