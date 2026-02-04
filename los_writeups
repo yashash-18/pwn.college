@@ -45,7 +45,12 @@ level-7 (orge):
   -> the level is cleared.
 
 level-8 (troll):
-  -> 
+  -> inspect the page and add a parameter named id.
+  -> where id=Admin or ADMIN.
+  -> since database is case insensitive if the input is in capital also it will take it as admin..
+  -> the level is cleared.
 
+level-9 (vampire):
+  -> 
 
 
