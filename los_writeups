@@ -51,6 +51,12 @@ level-8 (troll):
   -> the level is cleared.
 
 level-9 (vampire):
+  -> inspect the page and add a parameter named id.
+  -> since if we enter admin then it gets replaced by "". ( an empty space)
+  -> so id=adadminmin.  ( in this the admin in the middle will be replaces by empty space then the final output is admin itself)
+  -> the level is cleared..
+
+level-10 (skeleton):
   -> 
 
 
