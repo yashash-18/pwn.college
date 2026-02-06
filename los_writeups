@@ -72,6 +72,14 @@ level-11 (golem):
   -> th level is cleared..
 
 level-12 (darkknight):
-  -> 
+  -> inspect the page and add a parameter named no.
+  -> where no=""  . ( u just started and ended it since pw is block we cant do anything with it.)
+  -> now write no="" || id LIKE "admin" && length(pw)>7
+  -> if it returns true then start brute forcing it..
+  -> where pw=0b70ea1f
+  -> the level is cleared..
+
+level-13 (bugbear):
+  ->
 
 
