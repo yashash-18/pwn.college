@@ -87,6 +87,11 @@ level-13 (bugbear):
   -> the level is cleared
 
 level-14 (giant):
+  -> inspect the page and add a parameter named shit in url.
+  -> where shit=(vertical tab in percent encoding)[%0B]
+  -> the level is cleared..
+
+level-15 (assassin):
   -> 
 
 
