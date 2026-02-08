@@ -92,6 +92,20 @@ level-14 (giant):
   -> the level is cleared..
 
 level-15 (assassin):
+  -> inspect the page and add a parameter named pw.
+  -> where pw=a%  .(wild card characters "%,_")
+  -> by brute forcing the above query we get the first character.
+  -> if it returns hello guest then check for the next characater of it , since if it returns it will not check for any other it will just return we can say that the first character of admin is also the same, so check for the next character)
+  -> now pw=9_%  .("_" represents for a single character, "%" represents for multiple characters)
+  -> brute force the above query and if it returns hello guest check for the next character..
+  -> now pw=90_ .
+  -> on brute forcing it , it returns hello admin then enter first three charcaters of admin in pw.
+  -> pw=902%
+  -> the level is cleared since it matches with first three characters of admin pass.
+
+level-16 (succubus):
+  -> 
+
   -> 
 
 
