@@ -104,8 +104,11 @@ level-15 (assassin):
   -> the level is cleared since it matches with first three characters of admin pass.
 
 level-16 (succubus):
-  -> 
+  -> in order to escape the single quote lets use "\"
+  -> where id='\' and pw=' or 1=1-- 
+  -> the level is cleared
 
+level-17 (zombie_assassin):
   -> 
 
 
