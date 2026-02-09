@@ -109,7 +109,16 @@ level-16 (succubus):
   -> the level is cleared
 
 level-17 (zombie_assassin):
-  -> 
+  -> since if there are any special characters present in the query then a back slash is added.
+  -> now id=" and pw=- --1=1 ro  ( since string will get reversed )
+  -> the final query is :
+          query : select id from prob_zombie_assassin where id='"\' and pw='or 1=1-- -'
+  -> here the first two quotes are on pair and then there is a single quote open after that and the other is escaped by back slash so that the start of pw will be the closing of the single quote.
+  -> the level is cleared.
+
+level-18 (nightmare):
+  ->
+
 
 
 
