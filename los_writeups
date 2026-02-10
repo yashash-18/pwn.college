@@ -127,5 +127,15 @@ level-19 (Xavis):
 
 
 
+level-20 (dragon):
+  -> since in the query # is present which comments out the rest of the statement in the query.
+  -> to end the comment we can use a new line or line break character (\n)
+  -> 
+  -> pw='%0A and 1=0 or id='admin'-- -
+  -> the level is cleared
+
+
+
+
 
 
