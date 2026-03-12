@@ -20,6 +20,10 @@
 ### -> Now just enter some text inside the key , and we observed that the type of input is 'password'.
 ### -> Now we need to find the password basically.since there are is no other information related to key, lets brute force it to get the password.
 ### -> We can use the tool 'hydra' for brute force.
+### -> In order to run the hydra we need username, and password which we are going to brute-force it.
+### -> There are some usernames and passwords in some files like they are commonly used credentials.
+<img width="762" height="123" alt="image" src="https://github.com/user-attachments/assets/784b20db-d7f9-47f7-a88e-c12ac7653598" /></br>
+### -> In order to locate the passwords file(rockyou.txt) ,we need to unzip it since it is compressed intially,since it occupies much space.
 <img width="1717" height="220" alt="image" src="https://github.com/user-attachments/assets/385311ab-feba-4b7b-a424-c0635a9b2232" /></br>
 ### -> In the above command -L refers to list of usernames and -P refers to the password and their respective paths and mention the target ip address and its endpoint ,like where the login form is present and then we need to mention the form variable and an error mesaage to tell hydra whether the password that was sent is correct or incorrect. 
 ### -> eg: if the input we are giving in a parameter named key,then we need to give it as "/path:key=^PASS^:F=invalid key" here ^PASS^ is a standard place holder for the password ,so that hydra sents all the passwords into this to test and F refers to fail and invalid key is the message that u receive on the web page when we type or enter the password and if it is incorrect then the message that is displayed has to be mentioned here and also it is case-sensitive.
