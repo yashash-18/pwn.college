@@ -14,3 +14,7 @@
 ### -> We installed exiftool and extracted the data of the image file .
 <img width="557" height="383" alt="image" src="https://github.com/user-attachments/assets/0e49e5b3-4081-4e8b-9484-c067f7c1b9b8" /></br>
 ### -> We got all the data of the image file and there we got some text in the comment section.
+### -> Initially i thought it was password since there is a character p infront of it, but then generally we will search for endpoints after entering the web page(robots.txt), but here there is no such file so lets just assume that the text we got as a path and lets try implementing it in the url.
+<img width="1251" height="486" alt="image" src="https://github.com/user-attachments/assets/f20aac15-7353-4983-b2a5-5863a216f936" /></br>
+### -> Yes what we got in the comment section was actually the path itself.
+
