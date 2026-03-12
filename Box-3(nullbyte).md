@@ -17,4 +17,7 @@
 ### -> Initially i thought it was password since there is a character p infront of it, but then generally we will search for endpoints after entering the web page(robots.txt), but here there is no such file so lets just assume that the text we got as a path and lets try implementing it in the url.
 <img width="974" height="235" alt="image" src="https://github.com/user-attachments/assets/5ed60aef-d7e2-45a3-8bed-7076fe1e43d5" /></br>
 ### -> Yes what we got in the comment section was actually the path itself.
+### -> Now just enter some text inside the key , and we observed that the type of input is 'password'.
+### -> Now we need to find the password basically.since there are is no other information related to key, lets brute force it to get the password.
+### -> 
 
