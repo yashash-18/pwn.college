@@ -4,4 +4,13 @@
 <img width="902" height="242" alt="image" src="https://github.com/user-attachments/assets/f3fee22e-2e3d-41e7-833d-43ff447d3f70" /></br>
 ### ->the target ip address will be in the range of as of our ip address
 <img width="842" height="531" alt="image" src="https://github.com/user-attachments/assets/8e92f643-2cac-4b28-86dc-236c810ce568" /></br>
-### ->from the above scan we found the target ip address and the two open ports and their services.
+### -> From the above scan we found the target ip address and the two open ports and their services.
+### -> Search the ip address and then it displays a webpage of that.
+<img width="1916" height="841" alt="image" src="https://github.com/user-attachments/assets/6e864328-9190-4a41-9dc9-6779b6e966ae" /></br>
+### -> Check for robots.txt to get some information or to get the endpoints.
+### -> We found that there is no such file exists and only a web page with an image is displayed.
+### -> Now lets extract or get the data from the image file.
+### -> We need to download some specific tools inorder to extract the data of an image file.
+### -> We installed exiftool and extracted the data of the image file .
+<img width="557" height="383" alt="image" src="https://github.com/user-attachments/assets/0e49e5b3-4081-4e8b-9484-c067f7c1b9b8" /></br>
+### -> We got all the data of the image file and there we got some text in the comment section.
