@@ -43,10 +43,27 @@
 <img width="721" height="258" alt="image" src="https://github.com/user-attachments/assets/839ac89e-5911-40f2-8552-16d173780394" /></br>
 ### -> Now we can ask to dump the data by the command,
 <img width="1258" height="63" alt="image" src="https://github.com/user-attachments/assets/9a1c1091-748f-45ce-afb0-f6de0fe21802" /></br>
-### -> We got the username and password(encoded).
+### -> We got the username and password(encoded). then try decoding the password into plain text .(we get pw=omega,user=ramses)
 <img width="1021" height="217" alt="image" src="https://github.com/user-attachments/assets/1aee82dd-6320-4125-9cd6-248226848418" /></br>
 ### -> Now since we got the credentials , we can try log in to ssh on port 777.
 <img width="746" height="325" alt="image" src="https://github.com/user-attachments/assets/95ac3d35-34d5-4597-b362-e5e93097d421" /></br>
+### -> search for the sudo previlijes by running sudo -l
+### -> It says that ramses is not in the sudoers file which means ramses doesn't have any previlijes as of root.
+<img width="778" height="151" alt="image" src="https://github.com/user-attachments/assets/4751cb35-70c3-4d94-b001-59d920e44fea" /></br>
+### -> On a Linux system, files set to run with root permissions,even when executed by a standard user they have the permissions as of root and they are called           SUID (Set User ID) executables.
+### -> Now lets list all the SUID files on the system .
+<img width="600" height="47" alt="image" src="https://github.com/user-attachments/assets/711fbc2d-07da-414a-b8e9-6645ac7e51e3" /></br>
+### -> -perm 4000 mean it looks for files with the SUID bit set.(where 4000 refers to SUID bit is on(4) and no permissions assigned to owner,group and others(000))
+### -> -type f looks for files only and 2>/dev/null refers to hide "Permission Denied" errors so the list stays clean.(since we cant access the root files '/root')
+### -> Now look for non-standard binaries (ignore the normal system files like /usr/bin/passwd and search for /tmp,/var/www ..)
+<img width="698" height="401" alt="image" src="https://github.com/user-attachments/assets/5d861517-afd8-43c6-bf1a-58028d8a7795" /></br>
+### -> We found a file /var/www/backup/procwatch and then list the files and read it.
+
+
+
+
+
+
 
 
 
