@@ -58,6 +58,11 @@
 ### -> Now look for non-standard binaries (ignore the normal system files like /usr/bin/passwd and search for /tmp,/var/www ..)
 <img width="698" height="401" alt="image" src="https://github.com/user-attachments/assets/5d861517-afd8-43c6-bf1a-58028d8a7795" /></br>
 ### -> We found a file /var/www/backup/procwatch and then list the files and read it.
+### -> Read the file ./procwatch which runs in the present directory itself.
+### -> Then we will get a # symbol and if we enter anything it displays command not found that means we are into the terminal.
+<img width="481" height="112" alt="image" src="https://github.com/user-attachments/assets/695c9cb5-4d91-4b1d-bf3b-075bbe487b2d" /></br>
+
+
 
 
 
