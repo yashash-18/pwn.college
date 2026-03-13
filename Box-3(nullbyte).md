@@ -25,11 +25,37 @@
 <img width="762" height="123" alt="image" src="https://github.com/user-attachments/assets/784b20db-d7f9-47f7-a88e-c12ac7653598" /></br>
 ### -> In order to locate the passwords file(rockyou.txt) ,we need to unzip it since it is compressed intially,since it occupies much space.
 <img width="1717" height="220" alt="image" src="https://github.com/user-attachments/assets/385311ab-feba-4b7b-a424-c0635a9b2232" /></br>
-### -> In the above command -L refers to list of usernames and -P refers to the password and their respective paths and mention the target ip address and its endpoint ,like where the login form is present and then we need to mention the form variable and an error mesaage to tell hydra whether the password that was sent is correct or incorrect. 
-### -> eg: if the input we are giving in a parameter named key,then we need to give it as "/path:key=^PASS^:F=invalid key" here ^PASS^ is a standard place holder for the password ,so that hydra sents all the passwords into this to test and F refers to fail and invalid key is the message that u receive on the web page when we type or enter the password and if it is incorrect then the message that is displayed has to be mentioned here and also it is case-sensitive.
+### -> In the above command -L refers to list of usernames and -P refers to the password and their respective paths and mention the target ip address and its             endpoint ,like where the login form is present and then we need to mention the form variable and an error mesaage to tell hydra whether the password that was sent is correct or incorrect. 
+### -> eg: if the input we are giving in a parameter named key,then we need to give it as "/path:key=^PASS^:F=invalid key" here ^PASS^ is a standard place holder         for the password ,so that hydra sents all the passwords into this to test and F refers to fail and invalid key is the message that u receive on the web            page when we type or enter the password and if it is incorrect then the message that is displayed has to be mentioned here and also it is case-sensitive.
 ### -> After entering the password , a web page with the login form saying to enter username is displayed.
 <img width="515" height="177" alt="Screenshot 2026-03-13 180930" src="https://github.com/user-attachments/assets/a0e356f2-c7c4-4761-a5b3-3a3d6cb44f75" /></br>
-### We found that , if we enter any characters it is taking in and displaying "Fetched data successfully".
-### 
+### -> We found that , if we enter any characters it is taking in and displaying "Fetched data successfully".
+### -> Since there is nothing we can do with that so then try searching like are there any tools in order to exploit this situation.
+### -> We found a tool named sqlmap which is used to detect and exploit the sqli vulnerabilities and  it can automatically take over database servers once a flaw         is identified.
+<img width="1540" height="742" alt="image" src="https://github.com/user-attachments/assets/56a5b264-0694-4df8-9786-9c43bb2089ca" /></br>
+### -> We had run the command and mention the target server(url) that was intiated with the message(feteched data successfully) and asked to list all the databases on the target server.
+### -> From the above databases  information_schema,performance_schema,phpmyadmin and mysql are the default databases, so the database that is present is seth.
+<img width="1206" height="732" alt="image" src="https://github.com/user-attachments/assets/238a2937-e863-4c74-8926-e0d47596362e" /></br>
+### -> We had tried to check for any tables in the database(seth), where -D refers to database name and --tables will ask to list all the tables present.
+### -> Now we can check for the columns present in the table.
+### -> Use this command to list the columns of the table.
+<img width="1170" height="82" alt="image" src="https://github.com/user-attachments/assets/471832fa-39fe-4862-86d8-99789459e548" /></br>
+<img width="721" height="258" alt="image" src="https://github.com/user-attachments/assets/839ac89e-5911-40f2-8552-16d173780394" /></br>
+### -> Now we can ask to dump the data by the command,
+<img width="1258" height="63" alt="image" src="https://github.com/user-attachments/assets/9a1c1091-748f-45ce-afb0-f6de0fe21802" /></br>
+### -> We got the username and password(encoded).
+<img width="1021" height="217" alt="image" src="https://github.com/user-attachments/assets/1aee82dd-6320-4125-9cd6-248226848418" /></br>
+### -> Now since we got the credentials , we can try log in to ssh on port 777.
+<img width="746" height="325" alt="image" src="https://github.com/user-attachments/assets/95ac3d35-34d5-4597-b362-e5e93097d421" /></br>
+
+
+
+
+
+       
+
+
+
+
  
 
