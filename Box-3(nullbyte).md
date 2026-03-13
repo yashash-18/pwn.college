@@ -27,6 +27,7 @@
 <img width="1717" height="220" alt="image" src="https://github.com/user-attachments/assets/385311ab-feba-4b7b-a424-c0635a9b2232" /></br>
 ### -> In the above command -L refers to list of usernames and -P refers to the password and their respective paths and mention the target ip address and its endpoint ,like where the login form is present and then we need to mention the form variable and an error mesaage to tell hydra whether the password that was sent is correct or incorrect. 
 ### -> eg: if the input we are giving in a parameter named key,then we need to give it as "/path:key=^PASS^:F=invalid key" here ^PASS^ is a standard place holder for the password ,so that hydra sents all the passwords into this to test and F refers to fail and invalid key is the message that u receive on the web page when we type or enter the password and if it is incorrect then the message that is displayed has to be mentioned here and also it is case-sensitive.
+### -> After entering the password , a web page with the login form saying to enter username is displayed.
 
 
 
