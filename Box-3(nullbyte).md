@@ -3,7 +3,7 @@
 ## list all the network interfaces and ip address
 <img width="902" height="242" alt="image" src="https://github.com/user-attachments/assets/f3fee22e-2e3d-41e7-833d-43ff447d3f70" /></br>
 ### ->the target ip address will be in the range of as of our ip address
-<img width="842" height="531" alt="image" src="https://github.com/user-attachments/assets/8e92f643-2cac-4b28-86dc-236c810ce568" /></br>
+<img width="801" height="673" alt="image" src="https://github.com/user-attachments/assets/b42f0671-3839-4711-bd24-b4681b03ee4d" /></br>
 ### -> From the above scan we found the target ip address and the two open ports and their services.
 ### -> Search the ip address and then it displays a webpage of that.
 <img width="1916" height="841" alt="image" src="https://github.com/user-attachments/assets/6e864328-9190-4a41-9dc9-6779b6e966ae" /></br>
@@ -28,8 +28,8 @@
 ### -> In the above command -L refers to list of usernames and -P refers to the password and their respective paths and mention the target ip address and its endpoint ,like where the login form is present and then we need to mention the form variable and an error mesaage to tell hydra whether the password that was sent is correct or incorrect. 
 ### -> eg: if the input we are giving in a parameter named key,then we need to give it as "/path:key=^PASS^:F=invalid key" here ^PASS^ is a standard place holder for the password ,so that hydra sents all the passwords into this to test and F refers to fail and invalid key is the message that u receive on the web page when we type or enter the password and if it is incorrect then the message that is displayed has to be mentioned here and also it is case-sensitive.
 ### -> After entering the password , a web page with the login form saying to enter username is displayed.
-
-### We found that , if we enter any characters it is taking in and displaying "Fetched data successfully"
+<img width="515" height="177" alt="Screenshot 2026-03-13 180930" src="https://github.com/user-attachments/assets/a0e356f2-c7c4-4761-a5b3-3a3d6cb44f75" /></br>
+### We found that , if we enter any characters it is taking in and displaying "Fetched data successfully".
 ### 
  
 
