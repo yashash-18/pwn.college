@@ -63,12 +63,21 @@
 ### -> Read the file ./procwatch.
 ### -> Then a table is displayed with PID,TTY,TIME and CMD.generally if u just run the commands in the terminal,then we observe that ps command also displays the         same output with those columns. which means ps command is running process alongside procwatch.
 
-### -> 
+### -> generally procwatch calls the ps but it doesn't know where the ps files are located.then it goes to $PATH where some paths are present and it checks in that path and if it found one in any of the path then it wil be included as the ps file and take the path of it.
+### -> so now lets create a fake ps file in any directory and then copy the system shell content to that file and export the path since we have created a file with the system shell content in it.
+### -> to copy the system shell content run cp /bin/sh /file directory
+### -> run export PATH=/filedirectory:$PATH 
+### -> if we check for the permissions for the file we created , there is no such permission of execute.so give the permission of execute to that file.
+### -> run chmod 777 filename. (it adds the execute permission to it)
+### -> now go to the procwatch directory and execute it , u will see a root prompt with # in the terminal.
 
 
 
 
-<img width="481" height="112" alt="image" src="https://github.com/user-attachments/assets/695c9cb5-4d91-4b1d-bf3b-075bbe487b2d" /></br>
+
+
+
+
 
 
 
