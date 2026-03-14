@@ -59,9 +59,19 @@
 <img width="698" height="401" alt="image" src="https://github.com/user-attachments/assets/5d861517-afd8-43c6-bf1a-58028d8a7795" /></br>
 ### -> We found a file /var/www/backup/procwatch and then list the files.check for the type of file by running the command(file filename).
 
-### -> Read the file ./procwatch which runs in the present directory itself.
-### -> Then we will get a # symbol and if we enter anything it displays command not found that means we are into the terminal.
+### -> We observe that it is a executable file which mean we need to run the file as ./filename 
+### -> Read the file ./procwatch.
+### -> Then a table is displayed with PID,TTY,TIME and CMD.generally if u just run the commands in the terminal,then we observe that ps command also displays the         same output with those columns. which means ps command is running process alongside procwatch.
+
+### -> 
+
+
+
+
 <img width="481" height="112" alt="image" src="https://github.com/user-attachments/assets/695c9cb5-4d91-4b1d-bf3b-075bbe487b2d" /></br>
+
+
+
 
 
 
