@@ -47,7 +47,7 @@
 <img width="1021" height="217" alt="image" src="https://github.com/user-attachments/assets/1aee82dd-6320-4125-9cd6-248226848418" /></br>
 ### -> Now since we got the credentials , we can try log in to ssh on port 777.
 <img width="746" height="325" alt="image" src="https://github.com/user-attachments/assets/95ac3d35-34d5-4597-b362-e5e93097d421" /></br>
-### -> search for the sudo privilejes by running sudo -l
+### -> search for the sudo privileges by running sudo -l
 ### -> It says that ramses is not in the sudoers file which means ramses doesn't have any privilejes as of root.
 <img width="778" height="151" alt="image" src="https://github.com/user-attachments/assets/4751cb35-70c3-4d94-b001-59d920e44fea" /></br>
 ### -> On a Linux system, files set to run with root permissions,even when executed by a standard user they have the permissions as of root and they are called           SUID (Set User ID) executables.
